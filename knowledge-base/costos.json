@@ -1,0 +1,18 @@
+[
+  {
+    "palabras_clave": ["costo", "costos", "cuota", "cuanto cuesta", "precio", "pago"],
+    "respuesta": "El CETI es una institución pública, por lo que sus cuotas son accesibles. La cuota de inscripción semestral varía según el nivel educativo. Para nivel medio superior la cuota es aproximadamente de $2,000 a $3,000 MXN por semestre, y para nivel superior de $3,000 a $4,500 MXN por semestre. Los montos exactos se actualizan cada ciclo escolar."
+  },
+  {
+    "palabras_clave": ["beca", "becas", "apoyo economico", "descuento"],
+    "respuesta": "El CETI ofrece diversas opciones de becas para sus estudiantes: Beca de Excelencia Académica para alumnos con promedio destacado, Beca de Apoyo Económico para estudiantes con necesidades financieras, y becas externas como las de la SEP y CONACYT. Para solicitar una beca debes acudir al departamento de becas con tu comprobante de inscripción y documentación socioeconómica."
+  },
+  {
+    "palabras_clave": ["forma de pago", "formas de pago", "donde pagar", "como pagar", "banco"],
+    "respuesta": "Los pagos del CETI se pueden realizar mediante depósito o transferencia bancaria a la cuenta institucional, en las ventanillas de caja del plantel, o a través del portal de pagos en línea del CETI. Se aceptan pagos con tarjeta de débito y crédito en las cajas del plantel. El comprobante de pago es necesario para completar tu trámite de inscripción."
+  },
+  {
+    "palabras_clave": ["credencial", "seguro", "seguro facultativo", "gastos adicionales"],
+    "respuesta": "Además de la cuota de inscripción, los alumnos del CETI deben considerar el costo de la credencial estudiantil y el seguro facultativo del IMSS, que se tramita al momento de la inscripción. También pueden existir costos por materiales de laboratorio o talleres según la carrera. Estos gastos adicionales se informan al inicio de cada semestre."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "palabras_clave": ["carrera", "carreras", "ingenieria", "ingenierias", "que carreras hay", "oferta educativa"],
+    "respuesta": "El CETI ofrece carreras de ingeniería a nivel superior, entre ellas: Ingeniería en Sistemas Computacionales, Ingeniería Industrial, Ingeniería en Electrónica, Ingeniería Mecatrónica e Ingeniería en Redes y Telecomunicaciones. A nivel medio superior ofrece carreras técnicas como Técnico en Informática, Técnico en Electrónica y Técnico en Mecatrónica."
+  },
+  {
+    "palabras_clave": ["duracion", "cuanto dura", "semestres", "anos", "tiempo"],
+    "respuesta": "Las carreras de nivel superior (ingenierías) tienen una duración de 9 semestres, equivalente a 4 años y medio aproximadamente. Las carreras de nivel medio superior (técnico) tienen una duración de 6 semestres, equivalente a 3 años."
+  },
+  {
+    "palabras_clave": ["perfil", "perfil de egreso", "que voy a aprender", "campo laboral"],
+    "respuesta": "Los egresados del CETI cuentan con un perfil técnico-práctico orientado a la industria. Por ejemplo, el egresado de Ingeniería en Sistemas Computacionales puede desarrollar software, administrar bases de datos y diseñar soluciones tecnológicas. El egresado de Ingeniería Industrial puede optimizar procesos productivos y gestionar sistemas de calidad. Consulta el perfil específico de cada carrera en www.ceti.mx."
+  },
+  {
+    "palabras_clave": ["plan de estudios", "materias", "mapa curricular", "temario"],
+    "respuesta": "Cada carrera del CETI cuenta con un plan de estudios aprobado por la SEP que incluye materias de formación básica, formación profesional y especialización. Puedes consultar el mapa curricular completo de cada carrera en la sección de oferta educativa del portal www.ceti.mx o solicitarlo directamente en el departamento de servicios escolares."
+  }
+]

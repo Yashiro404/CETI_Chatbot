@@ -1,0 +1,18 @@
+[
+  {
+    "palabras_clave": ["requisitos", "documentos", "que necesito", "papeles", "documentacion"],
+    "respuesta": "Los documentos requeridos para inscripción en el CETI son: acta de nacimiento original y copia, certificado de secundaria o bachillerato (según el nivel), CURP ampliada, comprobante de domicilio reciente, 4 fotografías tamaño infantil en blanco y negro, y comprobante de pago de inscripción. Todos los documentos deben presentarse en original y copia."
+  },
+  {
+    "palabras_clave": ["examen", "examen de admision", "examen de ingreso", "prueba", "evaluacion"],
+    "respuesta": "El examen de admisión del CETI evalúa conocimientos en matemáticas, español, ciencias naturales y habilidades de razonamiento lógico. Se aplica de manera presencial en las instalaciones del CETI en la fecha indicada en tu ficha de registro. Es necesario presentarse con identificación oficial o credencial escolar y el comprobante de registro. Los resultados se publican en el portal del CETI."
+  },
+  {
+    "palabras_clave": ["curp", "acta de nacimiento", "certificado", "comprobante"],
+    "respuesta": "Para tu trámite de inscripción necesitas: CURP actualizada (puedes obtenerla en gob.mx/curp), acta de nacimiento reciente (no mayor a 3 meses), certificado de estudios previos con promedio, y comprobante de domicilio no mayor a 3 meses (recibo de luz, agua o teléfono). Presenta originales y dos copias de cada documento."
+  },
+  {
+    "palabras_clave": ["promedio", "promedio minimo", "calificacion", "nota minima"],
+    "respuesta": "El CETI no establece un promedio mínimo estricto para presentar el examen de admisión, sin embargo, la selección se basa en el resultado del examen y la disponibilidad de lugares. Un buen promedio en tu escuela de procedencia puede ser considerado como criterio de desempate. Se recomienda prepararse adecuadamente para el examen de admisión."
+  }
+]

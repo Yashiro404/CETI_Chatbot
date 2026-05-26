@@ -1,0 +1,18 @@
+[
+  {
+    "palabras_clave": ["ubicacion", "donde esta", "direccion", "campus", "plantel", "sede"],
+    "respuesta": "El CETI cuenta con dos planteles en la Zona Metropolitana de Guadalajara: Plantel Colomos ubicado en Calle Nueva Escocia 1885, Col. Providencia, Guadalajara, Jalisco; y Plantel Tonalá ubicado en Calle Nuevo Periférico 555, Tonalá, Jalisco. Ambos planteles ofrecen carreras de nivel medio superior y superior."
+  },
+  {
+    "palabras_clave": ["horario", "horarios", "hora", "turno", "turnos"],
+    "respuesta": "El CETI maneja dos turnos principales: turno matutino de 7:00 a 14:00 horas y turno vespertino de 14:00 a 21:00 horas. Los horarios de atención en oficinas administrativas y servicios escolares son de lunes a viernes de 8:00 a 20:00 horas. Los horarios específicos de cada carrera se asignan al momento de la inscripción."
+  },
+  {
+    "palabras_clave": ["contacto", "telefono", "correo", "email", "comunicarme", "redes sociales", "facebook", "instagram", "pagina", "sitio web"],
+    "respuesta": "Puedes contactar al CETI por estos medios: Plantel Colomos tel. (33) 3648-7100, Plantel Tonalá tel. (33) 3540-4940. Correo: informes@ceti.mx. Sitio web oficial: www.ceti.mx. Redes sociales: Facebook https://www.facebook.com/CETIoficial, Instagram https://www.instagram.com/CETIoficial. Ahí publican avisos, calendario escolar y noticias importantes."
+  },
+  {
+    "palabras_clave": ["como llegar", "transporte", "ruta", "autobus", "camion"],
+    "respuesta": "Para llegar al Plantel Colomos puedes tomar las rutas de transporte público que pasan por Av. Patria y Av. Americas. La estación de Macrobús más cercana es Patria. Para el Plantel Tonalá, las rutas de transporte que circulan por el Nuevo Periférico te dejan cerca del plantel. Ambos planteles cuentan con estacionamiento para alumnos y visitantes."
+  }
+]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CETI Chatbot — Asistente Virtual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>CETI Chatbot</h1>
+      <p>Asistente virtual del Centro de Enseñanza Técnica Industrial</p>
+    </header>
+
+    <main>
+      <section id="chat-messages" aria-live="polite" aria-label="Mensajes del chat" role="log">
+        <!-- Los mensajes se renderizan aquí dinámicamente -->
+      </section>
+    </main>
+
+    <footer>
+      <form id="chat-form" aria-label="Enviar mensaje">
+        <label for="message-input" class="sr-only">Escribe tu mensaje</label>
+        <input
+          type="text"
+          id="message-input"
+          placeholder="Escribe tu pregunta..."
+          autocomplete="off"
+          maxlength="500"
+          aria-label="Escribe tu mensaje"
+        >
+        <button type="submit" id="send-button" disabled aria-label="Enviar mensaje">
+          Enviar
+        </button>
+      </form>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

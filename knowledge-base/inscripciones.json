@@ -1,0 +1,18 @@
+[
+  {
+    "palabras_clave": ["inscripcion", "inscribirme", "registro", "como inscribirse", "proceso de inscripcion"],
+    "respuesta": "Para inscribirte en el CETI debes seguir estos pasos: 1) Registrarte en línea en el portal oficial del CETI, 2) Presentar el examen de admisión en la fecha indicada, 3) Si eres aceptado, acudir a la sede correspondiente con tus documentos originales para formalizar tu inscripción. Consulta las fechas vigentes en www.ceti.mx."
+  },
+  {
+    "palabras_clave": ["fecha", "fechas", "plazo", "cuando", "periodo", "convocatoria"],
+    "respuesta": "Las convocatorias de inscripción del CETI se publican generalmente entre mayo y julio de cada año para el ciclo escolar que inicia en agosto. Las fechas exactas del examen de admisión y del periodo de inscripción se publican en el portal oficial www.ceti.mx y en las redes sociales del CETI."
+  },
+  {
+    "palabras_clave": ["ficha", "registro en linea", "preinscripcion", "solicitud"],
+    "respuesta": "Para obtener tu ficha de registro debes ingresar al portal de aspirantes del CETI en www.ceti.mx, llenar el formulario de preinscripción con tus datos personales y escolares, y realizar el pago correspondiente a la ficha de examen. Una vez completado el registro recibirás tu comprobante con la fecha y sede de tu examen de admisión."
+  },
+  {
+    "palabras_clave": ["nuevo ingreso", "primer ingreso", "aspirante", "entrar al ceti"],
+    "respuesta": "Si deseas ingresar al CETI como alumno de nuevo ingreso, necesitas haber concluido la secundaria (para nivel medio superior) o el bachillerato (para nivel superior). El proceso incluye: registro en línea, pago de ficha, presentación del examen de admisión y, en caso de ser aceptado, entrega de documentos e inscripción formal."
+  }
+]
