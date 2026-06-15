@@ -1,0 +1,18 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (contienen credenciales y secretos)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Base de datos local de SQLite
+data/*.db
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
