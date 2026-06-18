@@ -9,8 +9,18 @@
 <body>
   <div id="app">
     <header>
-      <h1>CETI Chatbot</h1>
-      <p>Asistente virtual del Centro de Enseñanza Técnica Industrial</p>
+      <div class="header-content">
+        <div class="header-text">
+          <h1>CETI Chatbot</h1>
+          <p>Asistente virtual del Centro de Enseñanza Técnica Industrial</p>
+        </div>
+        <div id="auth-controls">
+          <button id="login-btn" class="auth-btn">Iniciar sesión</button>
+          <span id="user-label" hidden></span>
+          <button id="clear-history-btn" class="auth-btn" hidden>Limpiar chat</button>
+          <button id="logout-btn" class="auth-btn" hidden>Cerrar sesión</button>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -36,6 +46,33 @@
       </form>
     </footer>
   </div>
+
+  <!-- Modal de autenticación (login / registro) -->
+  <dialog id="auth-modal" aria-labelledby="auth-modal-title">
+    <form id="auth-form">
+      <h2 id="auth-modal-title">Iniciar sesión</h2>
+      <div class="auth-tabs" role="tablist">
+        <button type="button" role="tab" data-mode="login" class="active">Iniciar sesión</button>
+        <button type="button" role="tab" data-mode="register">Crear cuenta</button>
+      </div>
+      <label for="auth-email">Correo electrónico</label>
+      <input id="auth-email" type="email" autocomplete="email" required>
+      <label for="auth-password">Contraseña</label>
+      <input id="auth-password" type="password" minlength="6" maxlength="64" autocomplete="current-password" required>
+      <p id="auth-error" class="auth-error" role="alert" aria-live="assertive"></p>
+      <p id="auth-info" class="auth-info" role="status" aria-live="polite"></p>
+      <div class="auth-actions">
+        <button type="button" id="auth-cancel">Cancelar</button>
+        <button type="submit" id="auth-submit">Iniciar sesión</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Firebase SDK (compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
 
   <script src="app.js"></script>
 </body>

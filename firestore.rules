@@ -1,0 +1,17 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Cada usuario autenticado solo puede leer/escribir su propio historial,
+    // ubicado en users/{uid}/history/{docId}. El uid del token debe coincidir
+    // con el uid del documento.
+    match /users/{userId}/history/{docId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Todo lo demás queda denegado por defecto.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

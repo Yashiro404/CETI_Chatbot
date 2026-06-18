@@ -25,6 +25,19 @@ const app = express();
 // Parse JSON request bodies
 app.use(express.json());
 
+// Sirve la configuración de Firebase al cliente, generada desde variables de
+// entorno. Debe declararse ANTES del middleware de archivos estáticos para
+// tener prioridad. Las claves del SDK Web son públicas por diseño.
+app.get('/firebase-config.js', (req, res) => {
+  const fb = config.firebase;
+  res.type('application/javascript');
+  res.send(
+    `// Generado dinámicamente por el servidor desde variables de entorno (.env).\n` +
+      `var firebaseConfig = ${JSON.stringify(fb, null, 2)};\n` +
+      `firebase.initializeApp(firebaseConfig);\n`
+  );
+});
+
 // Serve static files from public/ directory
 app.use(express.static(path.join(__dirname, 'public')));
 

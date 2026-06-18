@@ -1,0 +1,22 @@
+name: Node.js CI (Demo — user-auth-email)
+
+on:
+  push:
+    branches:
+      - feature/user-auth-email-demo
+  pull_request:
+    branches:
+      - feature/user-auth-email-demo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
